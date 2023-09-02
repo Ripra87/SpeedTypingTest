@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Velocità di Battitura</title>
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body>
+        <h1>Test sulla velocità di scrittura</h1>
+        <div id="words-area">
+        </div>
+        <input type="text" id="input-field" name="input-field" value="" placeholder="Clicca qui per avviare il test">
+        <span id="reset">Nuovo Test</span>
+        <p>Secondi Rimanenti: <span id="time-left"> </span></p>
+        <div id="result" class="hidden">
+            <p>Parole Digitate Correttamente: <span id="correct"> </span> </p>
+            <p>Parole Sbagliate: <span id="wrong"> </span></p>
+        </div>
+
+        <script type="module" src="./lib.js"></script>
+    </body>
+</html>
