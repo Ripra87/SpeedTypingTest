@@ -1,5 +1,5 @@
 function typing (e, textInput, result, wordsArea ) {
-    if (result.start) {
+    if (result.testStart) {
         if (e.key === "Enter" && textInput.value == result.words[result.counter]) {
             wordsArea.children[result.counter].style.color = "green";
             result.counter++;
