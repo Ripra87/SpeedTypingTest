@@ -5,6 +5,7 @@ function fillWordsArea (wordsArea, textInput, timeLeft, wordsGroup, result, resu
     result.right = 0;
     result.wrong = 0;
     result.words = [];
+    result.testStart = false;
     
 
     for (let i = 0; i < 100; i++) {
